@@ -19,6 +19,16 @@ public class Book {
     private String isbn;
     private String publisher;
 
+    public Book(String title, String isbn, String publisher) {
+        this.title = title;
+        this.isbn = isbn;
+        this.publisher = publisher;
+    }
+
+    public Book() {
+
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
